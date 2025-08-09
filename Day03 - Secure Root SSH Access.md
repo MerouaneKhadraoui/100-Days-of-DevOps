@@ -52,6 +52,6 @@ sudo grep PermitRootLogin /etc/ssh/sshd_config
 
 **Expected Output:**
 
-```text
+```bash
 PermitRootLogin no
 ```

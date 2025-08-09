@@ -42,7 +42,7 @@ ls -l /tmp/xfusioncorp.sh
 
 **Expected Output:**
 
-```text
+```bash
 -rwxr-xr-x 1 root root 40 Aug  7 17:49 /tmp/xfusioncorp.sh
 ```
 
