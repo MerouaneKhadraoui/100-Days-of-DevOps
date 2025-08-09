@@ -12,7 +12,7 @@ Create a user named `javed` with a non-interactive shell on `App Server 2`.
 ## Solution
 
 ```bash
-ssh stapp02.stratos.xfusioncorp.com
+ssh steve@stapp02.stratos.xfusioncorp.com
 sudo useradd -s /sbin/nologin javed
 ```
 Type the password for the user when prompted to complete the user creation process.
