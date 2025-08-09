@@ -31,6 +31,6 @@ The output should show the account expiration date as `Feb 17, 2024`.
 
 **Example Output:**
 
-```text
+```bash
 Account expires    : Feb 17, 2024
 ```

@@ -57,7 +57,7 @@ getenforce
 
 **Expected Output:**
 
-```text
+```bash
 [root@stapp01 ~]# sestatus
 SELinux status: disabled
 [root@stapp01 ~]# getenforce

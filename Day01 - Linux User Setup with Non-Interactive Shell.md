@@ -31,7 +31,7 @@ If the user has been created successfully, the output should show `/sbin/nologin
 
 **Example Output:**
 
-```text
+```bash
 [root@stapp02 ~]# getent passwd javed
 javed:x:1002:1002::/home/javed:/sbin/nologin
 ```
