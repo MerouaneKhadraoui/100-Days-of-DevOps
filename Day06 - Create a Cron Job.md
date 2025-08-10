@@ -38,9 +38,9 @@ crontab -l
 Check service status:
 
 ```bash
-sudo systemctl status cron.service
+sudo systemctl status crond
 or
-sudo systemctl status crond.service
+sudo systemctl status cron
 ```
 
 **Example Output:**
@@ -53,3 +53,11 @@ no crontab for root
 [root@stapp01 ~]# crontab -l
 */5 * * * * echo hello > /tmp/cron_text
 ```
+
+---
+
+## Note
+
+- Ensure the `crond` (or `cron`) service is running for the job to execute.
+- The job will overwrite `/tmp/cron_text` with `hello` every 5 minutes.
+- For help with cron syntax,visit [crontab.guru](https://crontab.guru/)
