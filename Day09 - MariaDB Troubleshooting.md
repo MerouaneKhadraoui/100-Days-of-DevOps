@@ -14,6 +14,7 @@ Look into the issue and fix the same.
 
 1. Initial Service Status Check:
 Command: systemctl status mariadb or service mariadb status
+
 Purpose: To determine if the MariaDB service is running, stopped, or in a failed state, and to view recent log entries for clues.
 
 ```bash
@@ -22,7 +23,7 @@ service mariadb status
 ```
 
 2. Checking MariaDB Logs:
-Location: Typically /var/log/mariadb/mariadb.log or /var/log/mysql/error.log
+Location: Typically `/var/log/mariadb/mariadb.log` or `/var/log/mysql/error.log`
 
 ```bash
 tail -f /var/log/mariadb/mariadb.log #to follow the log in real-time, or
@@ -33,7 +34,7 @@ Purpose: Logs provide detailed error messages and warnings that pinpoint the roo
 
 3. Common Troubleshooting Scenarios:
 - Permission Issues:
-  - Symptom: "Permission denied" errors in logs, especially when MariaDB tries to write to its data directory (/var/lib/mysql) or PID file directory (/run/mariadb).
+  - Symptom: "Permission denied" errors in logs, especially when MariaDB tries to write to its data directory `/var/lib/mysql` or PID file directory `/run/mariadb`.
   - Resolution: Correct ownership and permissions using chown and chmod. For instance:
 
 ```bash
@@ -46,7 +47,7 @@ sudo chmod 755 /run/mariadb
 
 ## Verification
 
-Check version:
+Check status:
 
 ```bash
 systemctl start mariadb
