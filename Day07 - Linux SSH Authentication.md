@@ -15,7 +15,7 @@ Set up a password-less authentication from user `thor` on jump host to all app s
 Generated new SSH key pair
 
 ```bash
-ssh-keygen -t rsa -N ""
+ssh-keygen -t rsa -N "" -f ~/.ssh/id_rsa
 ```
 Copied public key to each target server
 
