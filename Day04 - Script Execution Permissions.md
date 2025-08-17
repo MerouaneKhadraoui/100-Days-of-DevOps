@@ -14,7 +14,7 @@ Grant executable permissions to the `/tmp/xfusioncorp.sh` script on `App Server 
 1. **Login to App Server 1**
 
    ```bash
-   ssh tonay@stapp01
+   ssh tony@stapp01
    ```
 
 2. **Set Permissions**
