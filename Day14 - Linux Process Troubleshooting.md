@@ -1,16 +1,12 @@
-# Day 13: IPtables Installation And Configuration
+# Day 14: Linux Process Troubleshooting
 
 ## Question
 
-We have one of our websites up and running on our `Nautilus` infrastructure in `Stratos DC`. Our security team has raised a concern that right now Apache's port i.e `3003` is open for all since there is no firewall installed on these hosts. So we have decided to add some security layer for these hosts and after discussions and recommendations we have come up with the following requirements:
+The production support team of xFusionCorp Industries has deployed some of the latest monitoring tools to keep an eye on every service, application, etc. running on the systems. One of the monitoring systems reported about Apache service unavailability on one of the app servers in `Stratos DC`.
 
 **Task:**  
 
-1. Install `iptables` and all its dependencies on each app host.
-
-2. Block incoming port `3003` on all apps for everyone except for LBR host.
-
-3. Make sure the rules remain, even after system reboot.
+Identify the faulty app host and fix the issue. Make sure Apache service is up and running on all app hosts. They might not have hosted any code yet on these servers, so you don't need to worry if Apache isn't serving any pages. Just make sure the service is up and running. Also, make sure Apache is running on port `8085` on all app servers.
 
 ---
 
