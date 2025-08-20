@@ -122,7 +122,7 @@ sudo systemctl start httpd
 sudo systemctl enable httpd
 ```
 
-5. **Validate**
+6. **Validate**
 
 Go back to the KodeKloud UI and click the **StaticApp button** (top bar).
 You should see the application being served, load balanced across all app servers.
