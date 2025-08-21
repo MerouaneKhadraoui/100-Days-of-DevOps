@@ -56,11 +56,15 @@ CREATE DATABASE kodekloud_db8;
 GRANT ALL PRIVILEGES ON DATABASE kodekloud_db8 TO kodekloud_top;
 ```
 
+---
+
 6. **Exit psql**
 
 ```sql
 \q
 ```
+
+---
 
 7. **Exit postgres user**
 
@@ -79,4 +83,5 @@ psql -U kodekloud_top -d kodekloud_db8 -h localhost
 ```
 
 It should ask for a password → enter `Rc5C9EyvbU`.
+
 If login is successful, the setup is correct ✅
