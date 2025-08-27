@@ -18,6 +18,9 @@ There is a Git server utilized by the Nautilus project teams. Recently, a new de
 
 ## Solution
 
+<p align="center">
+  <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*OhYsuz-ua_-JDqoHgziv8g.png" alt="Fork Git"/>
+</p>
 
 
 ---
