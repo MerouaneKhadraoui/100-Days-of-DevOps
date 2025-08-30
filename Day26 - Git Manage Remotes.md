@@ -77,14 +77,13 @@ git commit -m "Add index.html file"
 6. **Push changes to the new remote**
 
 Push the `master` branch to the new remote `dev_media`:
-
 ```bash
 git push dev_media master
 ```
-
 ---
 
 ✅ Done!
+
 This will satisfy all requirements:
 1. Remote dev_media added.
 2. index.html added and committed.
