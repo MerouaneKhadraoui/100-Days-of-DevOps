@@ -58,14 +58,6 @@ CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
 
 ## 🚀 How to test
 
-```bash
-docker exec -it kkloud bash
-```
-
----
-
-4. **Update packages and install apache2**
-
 On `App Server 2`:
 
 ```bash
